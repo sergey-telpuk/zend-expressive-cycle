@@ -1,0 +1,34 @@
+{
+  "name": "zendcycle/cycle",
+  "description": "Cycle integration for Zend Expressive",
+  "keywords": [
+    "cycle",
+    "zend expressive"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "sergey",
+      "email": "telpuk.sergey@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1.3",
+    "cycle/orm": "^1.1",
+    "cycle/annotated": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "CycleZend\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Test\\": "test/"
+    }
+  },
+  "scripts": {
+
+  }
+}
